@@ -8,6 +8,9 @@ public class MyClass {
        // ThreadByClass.start();
 
 
+
+
+
         ThreadByInterface ThreadByInterface = new ThreadByInterface();
         Thread thread = new Thread(ThreadByInterface);
         thread.start();
